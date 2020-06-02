@@ -12,6 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\image\pay.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="dotnet_run.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
