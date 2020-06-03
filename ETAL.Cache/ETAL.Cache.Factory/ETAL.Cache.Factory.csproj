@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.Util\ETAL.Util.csproj" />
+    <ProjectReference Include="..\ETAL.Cache.Interface\ETAL.Cache.Interface.csproj" />
+    <ProjectReference Include="..\ETAL.MemoryCache\ETAL.MemoryCache.csproj" />
+    <ProjectReference Include="..\ETAL.RedisCache\ETAL.RedisCache.csproj" />
+  </ItemGroup>
+
+</Project>

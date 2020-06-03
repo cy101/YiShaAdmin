@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ToolManage\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.IdGenerator\ETAL.IdGenerator.csproj" />
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.Util\ETAL.Util.csproj" />
+    <ProjectReference Include="..\..\ETAL.Web\ETAL.Web.Code\ETAL.Web.Code.csproj" />
+  </ItemGroup>
+
+</Project>

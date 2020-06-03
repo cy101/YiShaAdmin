@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Data\ETAL.Data.Repository\ETAL.Data.Repository.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Entity\ETAL.Entity.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Enum\ETAL.Enum.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Model\ETAL.Model.csproj" />
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.IdGenerator\ETAL.IdGenerator.csproj" />
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.Util\ETAL.Util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ToolManage\" />
+  </ItemGroup>
+
+</Project>

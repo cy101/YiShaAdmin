@@ -1,5 +1,5 @@
 ﻿/* 执行脚本前，请先选择数据库，脚本会先删除表，然后再创建表，请谨慎执行！！！ */;
-/* use yisha_admin; */;
+/* use etal_admin; */;
 
 DROP TABLE IF EXISTS `sys_area`;
 CREATE TABLE IF NOT EXISTS `sys_area` (

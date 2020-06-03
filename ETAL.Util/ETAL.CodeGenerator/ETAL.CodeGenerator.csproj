@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Business\ETAL.Business.Cache\ETAL.Business.Cache.csproj" />
+    <ProjectReference Include="..\..\ETAL.Data\ETAL.Data.Repository\ETAL.Data.Repository.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Entity\ETAL.Entity.csproj" />
+    <ProjectReference Include="..\ETAL.Util\ETAL.Util.csproj" />
+  </ItemGroup>
+
+</Project>

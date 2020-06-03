@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.Util\ETAL.Util.csproj" />
+    <ProjectReference Include="..\ETAL.Data.EF\ETAL.Data.EF.csproj" />
+    <ProjectReference Include="..\ETAL.Data\ETAL.Data.csproj" />
+  </ItemGroup>
+
+</Project>

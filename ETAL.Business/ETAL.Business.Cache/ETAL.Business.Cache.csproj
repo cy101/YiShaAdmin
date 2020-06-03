@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Cache\ETAL.Cache.Factory\ETAL.Cache.Factory.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Entity\ETAL.Entity.csproj" />
+    <ProjectReference Include="..\ETAL.Service\ETAL.Service.csproj" />
+  </ItemGroup>
+
+</Project>

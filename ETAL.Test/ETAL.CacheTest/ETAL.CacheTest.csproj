@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETAL.Cache\ETAL.Cache.Factory\ETAL.Cache.Factory.csproj" />
+    <ProjectReference Include="..\..\ETAL.Util\ETAL.Util\ETAL.Util.csproj" />
+    <ProjectReference Include="..\..\ETAL.Business\ETAL.Business.AutoJob\ETAL.Business.AutoJob.csproj" />
+    <ProjectReference Include="..\..\ETAL.Business\ETAL.Business\ETAL.Business.csproj" />
+    <ProjectReference Include="..\..\ETAL.Data\ETAL.Data.EF\ETAL.Data.EF.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Entity\ETAL.Entity.csproj" />
+    <ProjectReference Include="..\..\ETAL.Entity\ETAL.Model\ETAL.Model.csproj" />
+  </ItemGroup>
+
+</Project>

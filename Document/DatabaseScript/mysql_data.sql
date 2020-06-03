@@ -1,5 +1,5 @@
 ﻿/*  初始化数据 */;
-/* use yisha_admin; */;
+/* use etal_admin; */;
 
 INSERT INTO `sys_area` (`id`, `base_is_delete`, `base_create_time`, `base_modify_time`, `base_creator_id`, `base_modifier_id`, `base_version`, `area_code`, `parent_area_code`, `area_name`, `zip_code`, `area_level`) VALUES
 	(16508640061120570, 0, '2018-12-24 16:33:59', '2018-12-24 16:33:59', 0, 0, 0, '110000', '0', '北京', '', 1),
